@@ -1,4 +1,63 @@
-url: ~
+url: https://liux4283.github.io/SmCCNet/
 template:
   bootstrap: 5
+navbar:
+  structure:
+    left:
+    - Home
+    - Reference
+    - Articles
+    - News
+    - About
+    right:
+    - GitHub
+    - Search
+  components:
+    search:
+      text: Search
+home:
+  title: 'SmCCNet: Sparse Multiple Canonical Correlation Network Analysis Tool'
+  description: A powerful tool for network analysis in multi-omics data.
+  license: GPL-3
+articles:
+  groups:
+  - title: Manual SmCCNet
+    contents:
+    - SmCCNet_Vignette_MultiOmics
+    - SmCCNet_Vignette_SingleOmics
+  - title: Automated SmCCNet
+    contents: SmCCNet_Vignette_AutoSmCCNet
+reference:
+- title: Data Processing
+  contents:
+  - aggregateCVSingle
+  - dataPreprocess
+- title: Analysis Functions
+  contents:
+  - fastAutoSmCCNet
+  - getAbar
+  - getCanCorMulti
+  - getCanWeightsMulti
+  - getOmicsModules
+- title: Weight Calculation
+  contents:
+  - getRobustWeightsMulti
+  - getRobustWeightsMultiBinary
+  - getRobustWeightsSingle
+  - getRobustWeightsSingleBinary
+- title: Network Analysis
+  contents:
+  - networkPruning
+  - scalingFactorInput
+- title: Evaluation and Summarization
+  contents:
+  - classifierEval
+  - summarizeNetSHy
+- title: Example Datasets
+  contents:
+  - X1
+  - X2
+  - yes
+footer:
+  text: © 2024 SmCCNet. Developed by Weixuan Liu and @KechrisLab.
 
